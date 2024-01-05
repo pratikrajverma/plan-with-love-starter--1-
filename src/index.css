@@ -1,0 +1,118 @@
+/* write your css here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    user-select: none;
+}
+
+.heading{
+    font-size: 3rem;
+    margin:6vh;
+    border:2px dashed rgb(1, 17, 160);
+    border-radius: 20px;
+    padding: 1vh 5vh;
+}   
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+
+.card{
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(161, 161, 161); 
+
+}
+.card:hover{
+    scale: .98;
+    box-shadow: 0 0 10px green ;
+    transition: all 100ms;
+}
+
+.image{
+    width: 280px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
+
+.tour-info{
+    margin: 20px 5px;
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: rgb(255, 244, 244);
+    height: 2rem;
+    width: 15rem;
+    font-weight: 600;
+    border-radius:5px ;
+    font-size:1.2rem;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ref-btn{
+    width: 10rem;
+    margin: 1rem;
+    padding: .5vh 0rem;
+    cursor: pointer;
+
+}
+
+.ref-btn:hover{
+     
+
+}
